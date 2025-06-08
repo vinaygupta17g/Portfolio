@@ -237,10 +237,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Here you would typically send the form data to a server
         console.log('Form submitted:', formData);
-        
+        let contact = async (data)=>
+        {
+            let api = await fetch("https://contact-0xhp.onrender.com/contacts",{
+            "method":"POST",
+            "headers":{"content-type":"application/json"},
+            "body":JSON.stringify(formData)
+        });
+        let response =await api.json();
         // Show success message
         alert('Thank you for your message! I will get back to you soon.');
         contactForm.reset();
+        }
+        contact(formData)
     });
 
     // Add animation to skill bars
