@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'FOOD APP',
             description: 'Android food ordering app with cart functionality, intuitive UI/UX, and Android SDK integration.',
-            image: 'project4.jpg',
+            image: 'project4.png',
             technologies: ['Android', 'Java', 'SQLite'],
             link: 'https://github.com/vinaygupta17g/Food-App'
         },
