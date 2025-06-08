@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'SATELLITE DETAIL',
             description: 'Spring Boot API with MySQL database to fetch satellite details, including longitude, latitude, and altitude for precise tracking.',
-            image: 'project2.jpg',
+            image: 'project2.png',
             technologies: ['Spring Boot', 'MySQL', 'Java'],
             link: 'https://github.com/vinaygupta17g/Satellite-Detail'
         },
