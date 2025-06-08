@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'CHATAPP',
             description: 'Mobile application enabling seamless messaging and social connectivity through chat and follow features.',
-            image: 'project3.jpg',
+            image: 'project3.png',
             technologies: ['Android', 'Java', 'Firebase'],
             link: 'https://github.com/vinaygupta17g/ChatApp'
         },
