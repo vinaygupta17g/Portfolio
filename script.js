@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="project-content">
                 <h3>${project.title}</h3>
-                <p>${project.description}</p>
+                <p style="text-align:justify">${project.description}</p>
                 <div class="project-tech">
                     ${project.technologies.map(tech => `<span>${tech}</span>`).join('')}
                 </div>
